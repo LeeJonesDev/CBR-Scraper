@@ -1,0 +1,59 @@
+{
+  "name": "CBR Scraper",
+  "projectId": "207e5e45-195c-406c-90e8-7a79172b930d",
+  "description": "Blank Task",
+  "main": "Main.xaml",
+  "dependencies": {
+    "UiPath.ComplexScenarios.Activities": "[1.5.1]",
+    "UiPath.Excel.Activities": "[2.24.4]",
+    "UiPath.IntegrationService.Activities": "[1.14.0]",
+    "UiPath.Mail.Activities": "[1.24.2]",
+    "UiPath.Persistence.Activities": "[1.5.14-preview]",
+    "UiPath.Presentations.Activities": "[1.14.2]",
+    "UiPath.System.Activities": "[25.2.3]",
+    "UiPath.UIAutomation.Activities": "[25.2.1-preview]",
+    "UiPath.Word.Activities": "[1.20.3]"
+  },
+  "webServices": [],
+  "entitiesStores": [],
+  "schemaVersion": "4.0",
+  "studioVersion": "24.10.9.0",
+  "projectVersion": "1.0.0",
+  "runtimeOptions": {
+    "exceptionHandlerWorkflow": "GlobalHandlerX.xaml",
+    "autoDispose": false,
+    "netFrameworkLazyLoading": false,
+    "isPausable": true,
+    "isAttended": false,
+    "requiresUserInteraction": true,
+    "supportsPersistence": false,
+    "workflowSerialization": "DataContract",
+    "excludedLoggedData": [
+      "Private:*",
+      "*password*"
+    ],
+    "executionType": "Workflow",
+    "readyForPiP": false,
+    "startsInPiP": false,
+    "mustRestoreAllDependencies": true,
+    "pipType": "ChildSession"
+  },
+  "designOptions": {
+    "projectProfile": "Business",
+    "outputType": "Process",
+    "libraryOptions": {
+      "includeOriginalXaml": false,
+      "privateWorkflows": []
+    },
+    "processOptions": {
+      "ignoredFiles": []
+    },
+    "fileInfoCollection": [],
+    "saveToCloud": false
+  },
+  "expressionLanguage": "VisualBasic",
+  "isTemplate": false,
+  "templateProjectData": {},
+  "publishData": {},
+  "targetFramework": "Windows"
+}
